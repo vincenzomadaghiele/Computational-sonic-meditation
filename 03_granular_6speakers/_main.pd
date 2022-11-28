@@ -1,4 +1,4 @@
-#N canvas 0 32 2392 1317 12;
+#N canvas 0 0 1440 872 12;
 #X declare -lib vbap;
 #X floatatom 331 184 7 0 0 0 - - - 0;
 #X floatatom 413 183 7 0 0 0 - - - 0;
@@ -10,8 +10,8 @@
 #X text 498 161 ERROR;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X array frequencies 19 float 3;
-#A 0 471 438 496 567 430 474 486 461 477 493 460 441 453 451 460 425
-445 495 484;
+#A 0 672 845 152 292 512 330 336 418 451 667 820 709 535 721 540 503
+462 718 678;
 #X coords 0 1200 19 0 200 140 1 0 0;
 #X restore 1690 456 graph;
 #X obj 1918 505 random_initialize;
@@ -481,6 +481,8 @@ one or more times;
 #X obj 1304 814 r rand;
 #X obj 1304 838 * 3;
 #X msg 463 132 19;
+#X text 833 79 Vincenzo Madaghiele 2022 https://github.com/vincenzomadaghiele
+;
 #X connect 0 0 21 0;
 #X connect 1 0 22 0;
 #X connect 5 0 6 0;

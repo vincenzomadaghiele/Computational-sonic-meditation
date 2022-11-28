@@ -10,8 +10,8 @@
 #X text 498 161 ERROR;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X array frequencies 19 float 3;
-#A 0 518 529 552 523 562 505 523 711 721 533 485 542 510 552 287 510
-519 751 520;
+#A 0 107 415 425 228 571 244 434 465 493 178 736 248 227 636 736 279
+524 444 690;
 #X coords 0 1200 19 0 200 140 1 0 0;
 #X restore 1690 456 graph;
 #X obj 1918 505 random_initialize;
@@ -446,6 +446,8 @@ one or more times;
 #X floatatom 1702 676 5 0 0 0 - - - 0;
 #X obj 1863 656 adc~;
 #X obj 1863 680 delwrite~ voice 5000;
+#X text 832 86 Vincenzo Madaghiele 2022 https://github.com/vincenzomadaghiele
+;
 #X connect 0 0 21 0;
 #X connect 1 0 22 0;
 #X connect 5 0 6 0;

@@ -10,7 +10,7 @@
 #X text 467 182 ERROR;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X array frequencies 13 float 3;
-#A 0 251 520 670 461 517 642 242 263 776 106 166 760 726;
+#A 0 583 795 603 697 247 702 360 459 438 214 718 376 253;
 #X coords 0 1200 13 0 200 140 1 0 0;
 #X restore 1728 457 graph;
 #X obj 1956 506 random_initialize;
@@ -592,6 +592,8 @@ one or more times;
 #X msg 1051 581 150;
 #X msg 1262 582 180;
 #X text 1958 537 numvoices in random init has to be changed manually
+;
+#X text 757 106 Vincenzo Madaghiele 2022 https://github.com/vincenzomadaghiele
 ;
 #X connect 0 0 30 0;
 #X connect 1 0 31 0;

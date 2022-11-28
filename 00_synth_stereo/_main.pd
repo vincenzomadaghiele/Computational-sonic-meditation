@@ -15,7 +15,7 @@
 #X obj 383 681 * 0.25;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X array frequencies 13 float 3;
-#A 0 400 574 108 782 404 125 174 582 150 144 797 401 398;
+#A 0 835 450 483 376 484 571 400 289 655 771 353 538 751;
 #X coords 0 1000 13 0 200 140 1 0 0;
 #X restore 769 353 graph;
 #X obj 40 117 s vol;
@@ -412,7 +412,7 @@
 #X msg 326 585 17;
 #X msg 460 583 18;
 #X msg 592 580 19;
-#X text 731 178 Sit in a circle with your eyes closed. Begin by observing
+#X text 759 147 Sit in a circle with your eyes closed. Begin by observing
 your own breathing. Gradually form a mental image of one person who
 is sitting in the circle. Sing a long tone to that person. Then sing
 the pitch that person is singing. Change your mental image to another
@@ -424,10 +424,10 @@ one or more times;
 #X msg 172 767 stop;
 #X obj 337 757 *~ 0.1;
 #X obj 390 757 *~ 0.1;
-#X text 801 120 SONIC MEDITATIONS - Pauline Oliveros;
+#X text 829 89 SONIC MEDITATIONS - Pauline Oliveros;
 #X text 264 43 COMPUTATIONAL SONIC MEDITATION;
 #X text 347 61 - X -;
-#X text 906 149 - X -;
+#X text 934 118 - X -;
 #X obj 510 137 loadbang;
 #X msg 510 161 5000;
 #X msg 558 160 500;
@@ -438,6 +438,8 @@ one or more times;
 #X obj 38 141 sel 1;
 #X obj 38 168 s random_init;
 #X obj 1064 358 r random_init;
+#X text 873 765 Vincenzo Madaghiele 2022 https://github.com/vincenzomadaghiele
+;
 #X connect 1 0 115 0;
 #X connect 1 0 116 0;
 #X connect 2 0 18 0;
